@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /*background-color: rgb(221, 177, 177);
+    background-color: rgba(255, 255, 128, .5);*/
+    background-color: rgb(250, 238, 231);
+    font-family: 'Montserrat', 'Source Sans Pro', sans-serif;
+    margin: 0 5px 0 5px;
+}
+
+ /** {
+    outline: 1px solid red
+}*/
+
+
+
+.site-header {
+    display: flex;
+    flex-wrap: wrap;
+    height: 350px;
+    background-image: url("Media/venice-g89712efce_1920.jpg");
+    background-size: cover;    
+  background-repeat: no-repeat;
+  background-position: bottom;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  gap: 5px;
+  margin: 0px 10px 10px 10px;
+  border-radius: 30%;
+}
+
+
+@media only screen and (max-width: 360px) {
+
+.site-header {
+    height: 250px;
+    }
+}
+
+
+
+
+
+
+
+.titlelogo {
+    font-size: 2em;
+    background-color: azure;
+    padding: 10px;
+    border-radius: 5%;
+    opacity: 0.7;
+    text-align: center;
+}
+
+ h1 {
+
+color: rgb(12, 129, 81); 
+ 
+}
+
+.motto {
+    font-size: 2em;
+    background-color: azure;
+    padding: 10px;
+    border-radius: 5%;
+    opacity: 0.7;
+    text-align: center;
+}
+
+@media only screen and (max-width: 360px) {
+    .titlelogo, .motto{
+    font-size: .9em;}
+}
+
+    
+
+
+p {
+    color: rgb(12, 129, 81);
+    font-size: 1.5em;
+}
+
+.images figcaption {
+    color: rgb(12, 129, 81);
+    text-align: center;
+}
+
+
+
+.images {
+    display: flex;
+    flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+flex-grow: 1;
+flex-shrink: 2;
+}
+
+@media only screen and (max-width: 480px) {
+
+.images img {
+
+    width: 380px;
+}
+
+}
+
+
+.images img {
+
+    border-radius: 10px;
+}
+
+
+
+
+
+.team {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.team .paragraph {
+   margin: auto;
+}
+
+.team p {
+    text-align: center;
+
+}
+
+
+h2 {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(12, 129, 81);
+}
+
+.team img {
+
+    border-radius: 30%;
+    margin: auto;
+
+}
+
+@media only screen and (max-width: 360px) {
+    .team img {
+    width: 300px;
+margin: auto;}
+    }
+    @media only screen and (max-width: 360px) {
+
+        .text {
+            font-size: .9em;
+            width: 300px;
+            margin: auto;
+        }
+    }
+    
+
+
+
+h3 {
+    text-align: center;
+    color: rgb(12, 129, 81);
+}
+
+.teamone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+   
+}
+
+.teamone img {
+    display: flex;
+    transform: scale(.8, .8);
+    border: 3px solid black;
+}
+
+.teamone .paragraph {
+
+  padding-top: 15px;
+}
+
+.one {
+    margin-top: 45px;
+}
+
+.teamtwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  
+}
+
+.teamtwo img {
+    transform: scale(.8, .8); 
+    border: 3px solid black;
+}
+
+.paragraph {
+    width: 400px;
+    margin-top: 40px;
+    font-size: 1em;
+    text-align: center;
+
+}
+
+
+.teamtwo .paragraph {
+
+    padding-top: 10px;
+}
+
+.teamthree {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  
+
+}
+
+
+
+.teamthree img {
+
+   transform: scale(.8, .8);
+   border: 3px solid black;
+}
+
+.teamthree h3 {
+
+    margin-bottom: 10px;
+}
+
+
+.content {
+
+    margin: 15px;
+}
+
+.footer {
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+
+
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+padding: 4px;
+margin: 50px 30px 20px 20px;
+
+}
+
+.contact form label {
+    
+    margin: 5px;
+}
+
+.contact form input {
+    margin: 5px;
+}
+
+.btnsubmit {
+
+    margin-left: 120px;
+    padding: 10px;
+}
+
+
+
+.map {
+
+    margin: 150px 20px 20px 60px;
+}
+ 
+
+
+.info{
+display: flex;
+flex-wrap: wrap;
+list-style: none;
+margin: 150px 20px 20px 60px;
+
+}
+.info li {
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.contactimage{
+    height: 200PX;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+
+
